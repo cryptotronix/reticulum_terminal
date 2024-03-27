@@ -1,0 +1,13 @@
+# put links to custom packages here
+
+source "$BR2_EXTERNAL_RT_PATH/package/python-rns/Config.in"
+source "$BR2_EXTERNAL_RT_PATH/package/python-lxmf/Config.in"
+
+menu "Target packages"
+endmenu
+
+menu "Host packages"
+endmenu
+
+menu "Linux extensions"
+endmenu

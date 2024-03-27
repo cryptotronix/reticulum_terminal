@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_RNS
+	bool "python-rns"
+
+	depends on BR2_PACKAGE_PYTHON3
+
+	help
+	  Rns RE tool: https://github.com/ReFirmLabs/rns
+	  

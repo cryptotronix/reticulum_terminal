@@ -1,0 +1,10 @@
+config BR2_PACKAGE_PYTHON_LXMF
+	bool "python-lxmf"
+
+	depends on BR2_PACKAGE_PYTHON3
+        depends on BR2_PACKAGE_PYTHON_QRCODE
+        depends on BR2_PACKAGE_PYTHON_RNS
+
+	help
+	  Rns RE tool: https://github.com/ReFirmLabs/rns
+	  
