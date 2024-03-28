@@ -16,3 +16,15 @@ At the moment, it just has python-rns and python-lxmf, so it's lacking quite a b
 Unless you are experienced in building buildroot systems, please don't start from scratch. If you are, documentation PRs are welcome. Instead please download the SDcard image.
 
 There is only one user: `root` with no password. YOLO. Plus anyway, it's trivial to change the password of any sdcard based linux distribution.
+
+## Hardware connection
+
+You will need a USB-to-UART device and connect to the standard UART pins on the Raspberry Pi to get to the terminal. Additionally, you'll want to plug in your TBEAM or such to the USB port on the pi.
+
+## Software
+
+You'll need to run rnsd manually for now, with something like `rnsd &`. It should be a systemd unit file.
+
+## What works
+
+The rnsd runs, rnstatus and other utilities run. I have no idea if they are working as I'm less an expert on the actual reticulum network, so file an issue or so and let me know.
